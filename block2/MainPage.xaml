@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="block2.MainPage">
+
+    <StackLayout BackgroundColor="#32B898">
+        <Image Source="Facebook.png" Margin="16,106,16,0"/>
+        <StackLayout Margin="30,127,30,183">
+            <Editor Text="Имя пользователя" FontFamily="Roboto" Background="#FFFFFF" TextColor="#696868"/>
+            <Editor Margin="0,20,0,0" Text="Пароль" FontFamily="Roboto" Background="#FFFFFF" TextColor="#696868" />
+            <Button Margin="100,38,100,0" Text="Регистрация" FontFamily="Roboto" BackgroundColor="#4A799A" TextColor="#FFFFFF" Clicked="GoSecondPage"/>
+        </StackLayout>
+    </StackLayout>
+
+</ContentPage>
